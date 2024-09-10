@@ -12,6 +12,10 @@ h1 {
 }
 
 .ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: yellow;
     border-radius: 50%;
 
@@ -19,4 +23,6 @@ h1 {
     height: 100px;
 
     margin: 0 auto;
+
+    transition: ease 1s
 }
