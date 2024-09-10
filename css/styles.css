@@ -29,4 +29,9 @@ h2 {
 
     font-weight: bold;
     font-size: 22px;
+    margin-block-end: 10px;
+}
+
+.ball-two {
+    background-color: brown;
 }
