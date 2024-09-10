@@ -1,11 +1,11 @@
 var gCurrSize = 100
-function onBallClick(elBall) {
+function onBallClick(elBall, maxDiameter) {
 
 
     var randIncre = getRandomInt(20, 61)
     var randColor = getRandomColor()
 
-    if (gCurrSize + randIncre >= 400) {
+    if (gCurrSize + randIncre >= maxDiameter) {
         gCurrSize = 100;
         randIncre = 0;
     }
