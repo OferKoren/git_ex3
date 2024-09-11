@@ -71,6 +71,12 @@ function onShrink() {
     updateBallsText()
 }
 
+//*change the color of the background randomly
+function onChangebackground() {
+    const randColor = getRandomColor()
+    document.body.style.backgroundColor = randColor
+}
+//*updates the balls text acoording to its size
 function updateBallsText() {
     for (ball in gBalls) {
         const width = gBalls[ball].style.width
