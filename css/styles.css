@@ -30,6 +30,7 @@ h2 {
     font-weight: bold;
     font-size: 22px;
     margin-block-end: 10px;
+    cursor: pointer;
 }
 
 .ball-two {
@@ -38,5 +39,9 @@ h2 {
 
 .ball-three {
     background-color: blueviolet;
-    cursor: pointer;
+
+}
+
+.ball-four {
+    background-color: gold;
 }
